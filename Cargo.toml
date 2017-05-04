@@ -1,0 +1,27 @@
+[package]
+name = "mdhcpd"
+version = "0.0.1"
+authors = ["Vladimir Pouzanov <farcaller@gmail.com>"]
+
+[[bin]]
+name = "mdhcpd"
+test = false
+doctest = false
+doc = false
+
+[dependencies]
+clap = "*"
+
+dhcp4r = { path = "thirdparty/dhcp4r"}
+ipgen = "0.*"
+
+grpc            = "0.*"
+protobuf        = "1.*"
+futures         = "0.1"
+futures-cpupool = "0.1"
+
+log = "*"
+env_logger = "*"
+
+net2 = "*"
+libc = "*"

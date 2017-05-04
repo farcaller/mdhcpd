@@ -1,0 +1,3 @@
+[submodule "thirdparty/etcd"]
+	path = thirdparty/etcd
+	url = https://github.com/coreos/etcd
